@@ -1,0 +1,17 @@
+$--colors: (
+    'primary': (
+        'base': #589ef8,
+    ),
+);
+
+@forward 'element-plus/theme-chalk/src/dark/var.scss' with (
+    $colors: $--colors
+);
+
+html.dark .el-sub-menu__title {
+  /*vue dark 主题下 element 禁用按钮的文字颜色*/
+  /*--el-button-disabled-text-color: red;*/
+  background: #1b222b;
+  color: #fff;
+}
+

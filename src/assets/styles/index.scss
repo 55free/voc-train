@@ -1,0 +1,23 @@
+/* @tailwind base; */
+@import './reset';
+
+a,
+a:active,
+a:visited {
+    color: var(--el-primary-color);
+}
+span{
+    outline: 0;
+}
+div:focus{
+    outline: 0;
+}
+:root {
+    --link-color: #42b983;
+}
+.card-image {
+  width: 100%;
+  max-width: 240px;
+  height: 130px;
+  object-fit: fill;
+}
